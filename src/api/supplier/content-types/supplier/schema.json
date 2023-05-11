@@ -55,6 +55,17 @@
       "relation": "oneToMany",
       "target": "api::product.product",
       "mappedBy": "supplier"
+    },
+    "certification": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
